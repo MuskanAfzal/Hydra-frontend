@@ -1,0 +1,75 @@
+/* General Navbar Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5vw 5vw;
+    color: #ffffff;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+  }
+  
+  /* Logo Styling */
+
+  .logo img {
+    margin-top: .4vw;
+    height: 9vw; 
+    margin-right: 10px;
+  }
+  
+  /* Navigation Styling */
+  .nav {
+    display: flex;
+    gap: 35px;
+  }
+  
+  .nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .8rem;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color:  rgb(190, 181, 230); 
+  }
+  
+  /* Buttons Styling */
+  .buttons {
+    display: flex;
+    gap: 2.3vw;
+  }
+  
+  .contact-us, .join-hydra {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: .8rem;
+    padding: 1vw 2.3vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s;
+  }
+  
+  .contact-us {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+  
+  .contact-us:hover {
+    background-color: #ffffff;
+    color: #2b2542;
+  }
+  
+  .join-hydra {
+    color: rgb(48, 44, 66); 
+    background: linear-gradient(90deg, rgb(123, 114, 168), rgb(190, 181, 230));
+  }
+  
+  .join-hydra:hover {
+    background: linear-gradient(90deg, rgb(190, 181, 230), rgb(123, 114, 168)); 
+  color: #ffffff;
+  }
+  

@@ -1,0 +1,110 @@
+/* General Styling */
+.hero-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 40px 80px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin-left: 3vw;
+  margin-right: 2vw;
+  margin-bottom: 4vw;
+  overflow: hidden; /* Ensures the wave graphics don't exceed the section */
+}
+
+/* Background Waves */
+.hero-waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0; /* Ensures it stays behind content */
+}
+
+.hero-wave {
+  position: absolute;
+  width: 50%;
+  margin-left: 50%;
+  height: auto;
+  opacity: 0.5;
+}
+
+.hero-wave-1 {
+  top: 50%;
+}
+
+.hero-wave-2 {
+  top: 10%;
+}
+
+/* Hero Content */
+.hero-content {
+  max-width: 40%;
+  position: relative;
+  z-index: 1; /* Ensures content stays above background */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content .highlight {
+  color: rgb(190, 181, 230); /* Light purple text */
+}
+
+.hero-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* CTA Button */
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 12px 24px;
+  background: linear-gradient(90deg, rgb(123, 114, 168), rgb(190, 181, 230));
+  border: none;
+  border-radius: 25px;
+  color: #2e2847;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.cta-button .arrow {
+  margin-left: 10px;
+  transition: margin-left 0.3s;
+}
+
+.cta-button:hover .arrow {
+  margin-left: 15px;
+}
+
+.cta-button:hover {
+  background: linear-gradient(90deg, rgb(190, 181, 230), rgb(123, 114, 168));
+  color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.301);
+}
+
+/* Image Styling */
+.hero-image {
+  position: relative;
+  z-index: 1; /* Keeps the image above the background */
+}
+
+.hero-image img {
+  box-shadow: 0 -24px 80px rgb(100, 93, 129);
+  max-width: 27vw;
+  border-radius: 80px 100px 80px 250px;
+  border: 20px solid #0000001e;
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+}

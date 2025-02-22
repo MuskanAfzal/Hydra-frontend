@@ -1,0 +1,23 @@
+.logo-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 5vw;
+  }
+  
+  .logo-banner img {
+    height: 6vw;
+    margin: 0 16px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+
+  #unreal-logo{
+    height: 10vw;
+  }
+  
+  .logo-banner img:hover {
+    filter: grayscale(0%);
+  }
+  

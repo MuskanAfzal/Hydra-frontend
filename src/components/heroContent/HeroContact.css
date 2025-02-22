@@ -1,0 +1,56 @@
+.hero-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, rgb(33, 30, 46), rgb(56, 50, 84), rgb(33, 30, 46));
+  border-radius: 50px;
+  padding: 30px 0px;
+  padding-left: 120px;
+  margin: 20px auto;
+  max-width: 1200px;
+  color: #d8d8f8;
+}
+
+.hero-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 0 15px; 
+  text-align: left;
+  position: relative; 
+}
+
+.hero-item .icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.hero-item .icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero-item h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.hero-item p {
+  font-size: 14px;
+  color: #bdbddc;
+  margin: 5px 0 0;
+}
+
+/* Add border only between sections */
+.hero-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  right: 0;
+  height: 80%;
+  width: 1px;
+  background-color: #3e4160; /* Border color */
+}

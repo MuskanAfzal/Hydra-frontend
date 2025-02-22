@@ -1,0 +1,76 @@
+.sectionContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(33, 30, 45, 0.9); /* Background overlay */
+    border-radius: 120px;
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    max-width: 80%;
+    height: 70px;
+    font-family: "Montserrat", serif;
+  }
+  
+  .sectionContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('F:/New Begining/Hydra/client/public/images/oculus.jpg') center/cover no-repeat;
+    filter: blur(0.5px) brightness(1); /* Blur and brighten background image */
+    border-radius: 120px; /* Same border radius as the container */
+    z-index: -1;
+    overflow: hidden; /* Prevents the background from spilling out */
+  }
+  
+  .sectionContent {
+    text-align: center;
+    color: white;
+    z-index: 1; /* Ensures it stays on top of the background */
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 1rem;
+  }
+  
+  .sectionSubtitle {
+    font-size: 1rem;
+    margin: 0 0 2rem;
+  }
+  
+  .scrollIndicatorWrapper {
+    position: absolute;
+    bottom: -25px; /* Pulls the circle out of the container bounds */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .scrollCircle {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(90deg, rgb(123, 114, 168), rgb(190, 181, 230));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border: 10px solid rgba(33, 30, 45, 0.863);
+    filter: none;
+  }
+  
+  .scrollArrow {
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid rgb(48, 44, 66);
+    border-bottom: 2px solid rgb(48, 44, 66);
+    transform: rotate(-45deg);
+  }
+  
