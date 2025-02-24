@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div class="about-section">
   <div class="about-image">
-    <img src="/images/Screenshot_2024-12-25_211727-removebg-preview.png" alt="VR Headset" />
+  <img src="/images/Screenshot_2024-12-25_211727-removebg-preview.png" alt="Screenshot" />
   </div>
   <div class="about-content">
     <h2>About</h2>
