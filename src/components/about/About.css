@@ -36,11 +36,11 @@
   object-fit: cover;
 
   /* Mask effect for the exact shape */
-  -webkit-mask-image: url("F:/New Begining/Hydra/client/public/images/Screenshot_2024-12-25_211727-removebg-preview.png"); /* Replace with mask image */
+  -webkit-mask-image: url("/images/Screenshot_2024-12-25_211727-removebg-preview.png"); /* Replace with mask image */
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size: cover;
-  mask-image: url("F:/New Begining/Hydra/client/public/images/Screenshot_2024-12-25_211727-removebg-preview.png");
+  mask-image: url("/images/Screenshot_2024-12-25_211727-removebg-preview.png");
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: cover;
