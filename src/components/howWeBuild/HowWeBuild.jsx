@@ -3,7 +3,7 @@ import "../introduction/Introduction.css";
 
 const HowWeBuild = () => {
   return (
-    <div className="introduction-section">
+    <div id="how-to" className="introduction-section">
       <div className="introduction-content">
         <div className="intro-title">
           <h2>HOW WE BUILD</h2>

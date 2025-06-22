@@ -2,9 +2,9 @@ import React from 'react'
 import '../introduction/Introduction.css'
 export default function WhyBuild() {
   return (
-    <div class="introduction-section">
-  <div class="introduction-content">
-    <div class="intro-title">
+    <div id='services' className="introduction-section">
+  <div className="introduction-content">
+    <div className="intro-title">
       <h2>WHY BUILD</h2>
       <p>WITH HYDRA?</p>
     </div>

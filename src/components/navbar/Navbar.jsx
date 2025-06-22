@@ -14,8 +14,12 @@ const Navbar = () => {
         <a href="#how-to">HOW TO</a>
       </nav>
       <div className="buttons">
-        <button className="contact-us">CONTACT US</button>
-        <button className="join-hydra">JOIN HYDRA</button>
+        <a href="#contact">
+          <button className="contact-us">CONTACT US</button>
+        </a>
+        <a href="#join">
+          <button className="join-hydra">JOIN HYDRA</button>
+        </a>
       </div>
     </header>
   );

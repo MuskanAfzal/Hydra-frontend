@@ -3,7 +3,7 @@ import "./HeroContact.css"; // Import the CSS file for styling
 
 const HeroContact = () => {
   return (
-    <div className="hero-contact">
+    <div id="contact" className="hero-contact">
       <div className="hero-item">
         <div className="icon">
           <img src="/images/location-icon.png" alt="Location Icon" />
