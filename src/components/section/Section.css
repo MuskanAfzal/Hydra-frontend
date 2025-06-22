@@ -19,7 +19,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/images/oculus.jpg') center/cover no-repeat;
+    background: url('../../assets/oculus.jpg') center/cover no-repeat;
     filter: blur(0.5px) brightness(1); /* Blur and brighten background image */
     border-radius: 120px; /* Same border radius as the container */
     z-index: -1;
